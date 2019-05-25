@@ -4,8 +4,8 @@
 #define TOTAL_IMAGE_SLOTS 4
 #define NUMBER_OF_IMAGES 10
   
-Window *my_window;
-BitmapLayer *background_layer;
+static Window *my_window;
+static BitmapLayer *background_layer;
 
 const uint32_t IMAGE_BOLD_RESOURCE_IDS[NUMBER_OF_IMAGES] = {
   RESOURCE_ID_ZERO_BOLD_BLACK, RESOURCE_ID_ONE_BOLD_BLACK, RESOURCE_ID_TWO_BOLD_BLACK,
